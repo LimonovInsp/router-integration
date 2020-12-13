@@ -1,0 +1,177 @@
+.service_provider {
+  max-width: 872px;
+}
+
+.service_provider__search {
+  width: 272px;
+  height: 48px;
+  background-color: #ececec;
+  border: 1px solid #ececec;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #a4a4a4;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.41px;
+  padding-left: 16px;
+  outline: none;
+  margin-top: 32px;
+}
+
+.service_provider__search::placeholder {
+  color: #a4a4a4;
+}
+
+.service_provider__tag {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18.75px;
+  color: #000;
+}
+
+.service_provider__empty {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000;
+}
+
+.service_provider__list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 54px;
+}
+
+.service_provider__card {
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.service_provider__card__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.service_provider__list .service_provider__card:nth-child(-n + 2) {
+  margin-bottom: 8px;
+}
+
+.service_provider__left {
+  display: flex;
+  align-items: center;
+}
+
+.service_provider__card__poster {
+  width: 80px;
+  height: 80px;
+  background-color: #d1d1d1;
+}
+
+.service_provider__card__name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000;
+  margin-left: 16px;
+  margin-right: 48px;
+  width: 160px;
+}
+
+.service_provider__card__location {
+  display: flex;
+  flex-direction: column;
+}
+
+.service_provider__card__seat {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4f4f4f;
+}
+
+.service_provider__card__area {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #d1d1d1;
+}
+
+.service_provider__card__right {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service_provider__card__appointment {
+  margin-right: 32px;
+}
+
+@media screen and (max-width: 966px) {
+  .service_provider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service_provider__list {
+    align-items: center;
+  }
+  .service_provider__card {
+    width: 280px;
+    height: 280px;
+  }
+
+  .service_provider__card__wrapper {
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+  }
+
+  .service_provider__left {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .service_provider__card__poster {
+    margin-bottom: 16px;
+  }
+
+  .service_provider__card__right {
+    flex-direction: column;
+    width: auto;
+  }
+
+  .service_provider__empty {
+    margin-bottom: 16px;
+  }
+
+  .service_provider__card__location {
+    flex-direction: row;
+    margin-bottom: 16px;
+  }
+
+  .service_provider__card__seat {
+    margin-right: 10px;
+  }
+
+  .service_provider__card__name {
+    margin: 0;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .service_provider__card__appointment {
+    margin-right: 0;
+  }
+}

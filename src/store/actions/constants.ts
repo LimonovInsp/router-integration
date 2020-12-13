@@ -1,0 +1,4 @@
+export const SERVICE_APPOINTMENT = 'SERVICE_APPOINTMENT';
+export const SET_ROUTE = 'SET_ROUTE';
+export const REMOVE_ROUTE = 'REMOVE_ROUTE';
+export const SET_CLINIC = 'SET_CLINIC';

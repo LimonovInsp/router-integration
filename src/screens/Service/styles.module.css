@@ -1,0 +1,124 @@
+.service {
+  max-width: 872px;
+}
+
+.service__list {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  margin-bottom: 118px;
+  flex-wrap: wrap;
+}
+
+.service__card {
+  width: 280px;
+  height: 352px;
+  border-radius: 5px;
+  border: 1px solid #e3e3e3;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 8px;
+}
+
+.service__list .service__card:nth-child(-n + 2) {
+  margin-right: 16px;
+}
+
+.service__card__poster {
+  width: 100%;
+  height: 152px;
+  background-color: #cfcfcf;
+}
+
+.service__card__content {
+  box-sizing: border-box;
+  padding: 24px 8px 8px;
+}
+
+.service__card__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service__card__type {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18.75px;
+  color: #4d4d4d;
+}
+
+.service__card__cost {
+  width: 48px;
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18.75px;
+  color: #000;
+}
+
+.service__card__tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 24px;
+  background-color: rgba(207, 207, 207, 0.2);
+  border-radius: 100px;
+  font-weight: 400;
+  color: #b1b1b1;
+  font-size: 11px;
+  line-height: 12.89px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.service__card__description {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #acacac;
+  margin: 16px 0;
+}
+
+.service__card__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 32px;
+}
+
+.service__card__signs {
+  display: flex;
+}
+
+.service__sign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(199, 197, 197, 0.2);
+  width: 32px;
+  height: 32px;
+  border-radius: 2px;
+  margin-right: 8px;
+}
+
+.service__card__exam {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.75px;
+  color: #686868;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1285px) {
+  .service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .service__card {
+    margin: 16px;
+  }
+}

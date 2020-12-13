@@ -1,0 +1,9 @@
+.appointment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c4c4c4;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}

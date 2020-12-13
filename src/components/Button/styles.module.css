@@ -1,0 +1,22 @@
+.button {
+  width: 200px;
+  height: 64px;
+  background-color: #3f3f3f;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.09px;
+  text-align: center;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  float: right;
+}
+
+@media screen and (max-width: 966px) {
+  .button {
+    float: none;
+  }
+}
